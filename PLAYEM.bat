@@ -1,10 +1,10 @@
 @echo off
-rem Version 1.5 rev 2
+rem Version 1.5 rev 3
 rem Support for SNES, NES, GBA, and CPS1. 1 April 2020. Released on GitHub at: https://github.com/tungstenboy/pc-arcade
 
 rem Changelogs: Supports SNES, NES, GBA and CPS1. Released 31 March 2020.
 
-set snesEmu=.\SNES\snes9x.exe
+set snesPath=.\SNES\snes9x.exe
 set nesPath=.\NES\fceux.exe
 set gbaPath=.\VBA\VisualBoyAdvance.exe
 set cps12NGPath=.\CPS12NG\WinKawaks.exe
@@ -24,7 +24,7 @@ exit
 
 :snesSelect
 
-start %snesEmu%
+start %snesPath%
 echo Do you want to play a different emulated game?
 set /p Nextchoice=Your choice: 
 if %Nextchoice%==y goto question
