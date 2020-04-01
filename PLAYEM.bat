@@ -1,6 +1,6 @@
 @echo off
-rem Version 1.5 rev 1
-rem Support for SNES, NES, GBA, and CPS1. 1 April 2020.
+rem Version 1.5 rev 2
+rem Support for SNES, NES, GBA, and CPS1. 1 April 2020. Released on GitHub at: https://github.com/tungstenboy/pc-arcade
 
 rem Changelogs: Supports SNES, NES, GBA and CPS1. Released 31 March 2020.
 
