@@ -4,10 +4,10 @@ rem Support for SNES, NES, GBA, and CPS1. 1 April 2020. Released on GitHub at: h
 
 rem Changelogs: Supports SNES, NES, GBA and CPS1. Released 31 March 2020.
 
-set snesPath=.\SNES\snes9x.exe
-set nesPath=.\NES\fceux.exe
-set gbaPath=.\VBA\VisualBoyAdvance.exe
-set cps12NGPath=.\CPS12NG\WinKawaks.exe
+set snesPath=.\Emulators\SNES\snes9x.exe
+set nesPath=.\Emulators\NES\fceux.exe
+set gbaPath=.\Emulators\VBA\VisualBoyAdvance.exe
+set cps12NGPath=.\Emulators\CPS12NG\WinKawaks.exe
 :question
 cls
 echo What do you want to play today?
